@@ -1,0 +1,8 @@
+/* Custom styles for glowing effects */
+.glow-effect {
+    box-shadow: 0 0 20px rgba(37, 99, 235, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.glow-effect:hover {
+    box-shadow: 0 0 30px rgba(37, 99, 235, 0.8);
+}
